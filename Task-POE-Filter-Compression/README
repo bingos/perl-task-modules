@@ -1,0 +1,29 @@
+NAME
+    Task::POE::Filter::Compression - A Task to install all compression
+    related POE Filters.
+
+SYNOPSIS
+        perl -MCPANPLUS -e 'install Task::POE::Filter::Compression'
+
+DESCRIPTION
+    This Task module installs all compression related POE::Filter modules,
+    namely:
+
+      POE 1.0001
+
+      POE::Filter::Bzip2 1.54
+
+      POE::Filter::LZF 1.64
+
+      POE::Filter::LZO 1.64
+
+      POE::Filter::LZW 1.64
+
+      POE::Filter::Zlib 1.93
+
+LICENSE
+    This is free software, released under the same terms as perl itself.
+
+AUTHOR
+    Chris "BinGOs" Williams <chris@bingosnet.co.uk>
+

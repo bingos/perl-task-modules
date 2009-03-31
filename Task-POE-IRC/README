@@ -1,0 +1,24 @@
+NAME
+    Task::POE::IRC - Task to install all POE related IRC modules.
+
+SYNOPSIS
+        perl -MCPANPLUS -e 'install Task::POE::IRC'
+
+DESCRIPTION
+    Task::POE::IRC - Task to install all POE related IRC modules and
+    optional dependencies.
+
+      POE 1.0001
+
+      POE::Component::Client::DNS 1.00
+
+      POE::Component::IRC 5.74
+
+      POE::Component::Server::IRC 1.30
+
+LICENSE
+    This is free software, released under the same terms as perl itself.
+
+AUTHOR
+    Chris "BinGOs" Williams <chris@bingosnet.co.uk>
+

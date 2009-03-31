@@ -1,0 +1,16 @@
+use strict;
+use 5.006;
+use inc::Module::Install;
+name 'Task-POE-IRC';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+license 'perl';
+perl_version '5.006';
+version_from 'lib/Task/POE/IRC.pm';
+abstract_from 'lib/Task/POE/IRC.pm';
+author_tests 'xt';
+build_requires 'Test::More' => 0.47;
+requires 'POE' => 1.003;
+requires 'POE::Component::Client::DNS' => 1.02;
+requires 'POE::Component::IRC' => 5.90;
+requires 'POE::Component::Server::IRC' => 1.36;
+WriteAll();

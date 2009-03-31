@@ -1,0 +1,17 @@
+use strict;
+use inc::Module::Install;
+name 'Task-POE-Filter-Compression';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+license 'perl';
+version_from 'lib/Task/POE/Filter/Compression.pm';
+abstract_from 'lib/Task/POE/Filter/Compression.pm';
+author_tests 'xt';
+build_requires 'Test::More' => 0.47;
+requires 'warnings::compat' => 0 if $] < 5.006;
+requires 'POE' => 1.0001;
+requires 'POE::Filter::Bzip2' => 1.54;
+requires 'POE::Filter::LZF' => 1.64;
+requires 'POE::Filter::LZO' => 1.64;
+requires 'POE::Filter::LZW' => 1.64;
+requires 'POE::Filter::Zlib' => 1.93;
+WriteAll();
