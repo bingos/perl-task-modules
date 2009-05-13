@@ -1,0 +1,37 @@
+NAME
+    Task::Module::Install::BINGOS - A Task to install all BINGOS'
+    Module::Install extensions
+
+SYNOPSIS
+      perl -MCPANPLUS -e 'install Task::Module::Install::BINGOS'
+
+DESCRIPTION
+    Task::Module::Install::BINGOS is a Task that installs all of my (BINGOS)
+    Module::Install extensions.
+
+    Why? Because I am lazy.
+
+    The following modules will be installed:
+
+      Module::Install
+
+      Module::Install::AssertOS
+
+      Module::Install::AutoLicense
+
+      Module::Install::AutomatedTester
+
+      Module::Install::CheckLib
+
+      Module::Install::GithubMeta
+
+      Module::Install::NoAutomatedTesting
+
+      Module::Install::ReadmeFromPod
+
+LICENSE
+    This is free software, released under the same terms as perl itself.
+
+AUTHOR
+    Chris "BinGOs" Williams <chris@bingosnet.co.uk>
+
