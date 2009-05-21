@@ -10,6 +10,7 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/NoAutomatedTesting.pm
 inc/Module/Install/ReadmeFromPod.pm
 inc/Module/Install/Win32.pm
+inc/Module/Install/With.pm
 inc/Module/Install/WriteAll.pm
 lib/Task/BeLike/BINGOS.pm
 LICENSE
