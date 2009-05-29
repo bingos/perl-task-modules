@@ -192,6 +192,7 @@ requires 'Test::POE::Server::TCP' => 1.04;
 requires 'Test::Pod' => 1.26;
 requires 'Test::Pod::Coverage' => 1.08;
 requires 'Test::Reporter' => 1.5203;
+requires 'Text::CSV' => 1.12;
 requires 'Text::CSV_XS' => 0.65;
 requires 'Text::Glob' => 0.08;
 requires 'Text::Reform' => 1.11;
