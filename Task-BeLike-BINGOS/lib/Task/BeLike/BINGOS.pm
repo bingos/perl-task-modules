@@ -6,7 +6,7 @@ use vars qw($VERSION);
 
 $VERSION = '1.04';
 
-'Looks like I picked the wrong week to quit sniffing glue.';
+'Looks like I picked the wrong week to quit sniffing glue.'
 
 __END__
 
