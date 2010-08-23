@@ -15,7 +15,7 @@ use Term::UI;
 use Term::ReadLine;
 use CPANPLUS::Configure;
 
-my $url = 'https://metabase.cpantesters.org/beta/';
+my $url = 'https://metabase.cpantesters.org/api/v1/';
 
 my (%profile, $help, $output, $full_name, $email_address, $password);
 
