@@ -14,8 +14,16 @@ use File::Spec;
 use Term::UI;
 use Term::ReadLine;
 use CPANPLUS::Configure;
+use Module::Load::Conditional qw[check_install];
 
-my $url = 'https://metabase.cpantesters.org/api/v1/';
+my $url = 'metabase.cpantesters.org/api/v1/';
+
+if ( check_install( module => 'Crypt::SSLeay' ) ) {
+  $url = 'https://' . $url;
+}
+else {
+  $url = 'http://' . $url;
+}
 
 my (%profile, $help, $output, $full_name, $email_address, $password);
 
