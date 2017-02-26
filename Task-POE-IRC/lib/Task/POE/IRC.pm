@@ -1,16 +1,13 @@
 package Task::POE::IRC;
 
+#ABSTRACT: Task to install all POE related IRC modules.
+
 use strict;
 use warnings;
-our $VERSION = '1.12';
 
-1;
+qq[Tasky McTaskIRC];
 
-__END__
-
-=head1 NAME
-
-Task::POE::IRC - Task to install all POE related IRC modules.
+=pod
 
 =head1 SYNOPSIS
 
@@ -28,13 +25,4 @@ Task::POE::IRC - L<Task> to install all L<POE> related IRC modules and optional 
 
   POE::Component::Server::IRC 1.32
 
-=head1 LICENSE
-
-This is free software, released under the same terms as perl itself.
-
-=head1 AUTHOR
-
-Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
-
 =cut
-
